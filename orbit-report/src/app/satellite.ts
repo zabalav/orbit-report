@@ -5,7 +5,6 @@ export class Satellite {
     operational: boolean;
     launchDate: string;
     
-    
     constructor (
         name: string, 
         type: string, 
@@ -27,5 +26,5 @@ export class Satellite {
             return false
         }
     } 
-   
+
 }    

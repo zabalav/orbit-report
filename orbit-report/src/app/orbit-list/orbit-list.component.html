@@ -8,7 +8,7 @@
       <th>Launch Date</th>
    </tr>
    
-   <tr *ngFor = "let satellite of satellites">
+   <tr [class.alternateRowColor]="" *ngFor = "let satellite of satellites">
       <td>{{satellite.name}}</td> 
       <td [class.warning]="satellite.shouldShowWarning()">{{satellite.type}}</td>
       <td>{{satellite.operational}}</td>
