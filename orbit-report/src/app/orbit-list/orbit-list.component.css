@@ -4,7 +4,7 @@
 }
 
 .warning {
-    background-color: #ce2278;
+    background-color: #f171b1;
 }
 
 table {
@@ -13,11 +13,11 @@ table {
   overflow: hidden;
   margin: 12px 0;
   min-width: 300px;
-  background: #d4d66f;
+  background: #ecee69;
 }
 
 .header-row {
-    background: #34495E;
+    background: #5e7e9e;
     color: #fff
 }
 
